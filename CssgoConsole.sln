@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssgoConsole", "CssgoConsole.csproj", "{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{D8C58ED7-4AC0-42D5-AF21-57CCDA7667EC}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
