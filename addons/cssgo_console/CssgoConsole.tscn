@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://6eu6220lyin1"]
+
+[ext_resource type="FontFile" uid="uid://cq4vklyt5vx8h" path="res://addons/cssgo_console/font/JetBrainsMonoNL-Regular.ttf" id="1_ge01h"]
+
+[node name="CssgoConsole" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Output" type="RichTextLabel" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CodeEdit" type="CodeEdit" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_ge01h")
+
+[node name="SendButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+text = "发送"

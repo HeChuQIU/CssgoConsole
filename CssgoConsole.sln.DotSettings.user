@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005CHeChu_005CDesktop_005CProject_005CCssgoConsole_005CClassLibrary_005Cbin_005CDebug_005Cnet8_002E0_005CClassLibrary_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005CHeChu_005CDesktop_005CProject_005CCssgoConsole_005CCssgoConsoleLibrary_005CCssgoConsoleLibrary_005Cnupkg_005CCssgoConsoleLibrary_002E0_002E0_002E0_002Ddevbuild_002Enupkg/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\HeChu\.nuget\packages\cssgoconsolelibrary\0.0.0-devbuild\lib\net8.0\CssgoConsoleLibrary.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\HeChu\.nuget\packages\godotsharp\4.3.0\lib\net6.0\GodotSharp.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\HeChu\AppData\Roaming\godotenv\godot\bin\GodotSharp\Api\Debug\GodotPlugins.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

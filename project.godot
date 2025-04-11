@@ -12,12 +12,20 @@ config_version=5
 
 config/name="CssgoConsole"
 run/main_scene="res://src/Main.tscn"
-config/features=PackedStringArray("4.3", "C#", "Mobile")
+config/features=PackedStringArray("4.4", "C#", "Mobile")
 config/icon="res://icon.png"
+
+[autoload]
+
+CssgoConsole="*res://addons/cssgo_console/CssgoConsole.cs"
 
 [dotnet]
 
 project/assembly_name="CssgoConsole"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/cssgo_console/plugin.cfg")
 
 [rendering]
 

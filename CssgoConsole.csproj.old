@@ -1,4 +1,4 @@
-<Project Sdk="Godot.NET.Sdk/4.4.0">
+<Project Sdk="Godot.NET.Sdk/4.3.0">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
@@ -29,22 +29,22 @@
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' or '$(Configuration)' == 'ExportDebug' ">
     <!-- Test dependencies go here! -->
     <!-- Dependencies added here will not be included in release builds. -->
-    <PackageReference Include="Chickensoft.GoDotTest" Version="1.5.10" />
+    <PackageReference Include="Chickensoft.GoDotTest" Version="1.5.10"/>
     <!-- Used to drive test scenes when testing visual code -->
-    <PackageReference Include="Chickensoft.GodotTestDriver" Version="3.0.2" />
+    <PackageReference Include="Chickensoft.GodotTestDriver" Version="3.0.2"/>
     <!-- Bring your own assertion library for tests! -->
     <!-- We're using Shouldly for this example, but you can use anything. -->
-    <PackageReference Include="Shouldly" Version="4.2.1" />
+    <PackageReference Include="Shouldly" Version="4.2.1"/>
     <!-- LightMock is a mocking library that works without reflection. -->
-    <PackageReference Include="LightMock.Generator" Version="1.2.2" />
+    <PackageReference Include="LightMock.Generator" Version="1.2.2"/>
     <!-- LightMoq is a Chickensoft package which makes it more like Moq. -->
-    <PackageReference Include="LightMoq" Version="0.1.0" />
+    <PackageReference Include="LightMoq" Version="0.1.0"/>
   </ItemGroup>
   <ItemGroup><!-- Production dependencies go here! -->
 
     <PackageReference Include="CssgoConsoleLibrary" Version="0.0.0-devbuild" />
 
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.11.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.11.0"/>
 
     <PackageReference Include="Microsoft.CodeAnalysis.Scripting.Common" Version="4.11.0" />
   </ItemGroup>
